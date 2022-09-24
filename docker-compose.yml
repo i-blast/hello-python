@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hellopython:
+    image: hellopython
+    build:
+      context: .
+      dockerfile: ./Dockerfile
