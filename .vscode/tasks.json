@@ -19,7 +19,11 @@
                 "docker-build"
             ],
             "python": {
-                "file": "hello-python.py"
+                "file": "hello-python.py",
+                "args": [
+                    "arg1",
+                    "arg2"
+                ]
             }
         }
     ]
